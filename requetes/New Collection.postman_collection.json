@@ -1,0 +1,331 @@
+{
+	"info": {
+		"_postman_id": "e8ad5a3c-aac5-461d-9dfb-b1a1be83d5ed",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50122820",
+		"_collection_link": "https://elibencpu-3654213.postman.co/workspace/Elias-Benmoussa's-Workspace~d41e8615-7f79-44f6-87f2-ea668baf829f/collection/50122820-e8ad5a3c-aac5-461d-9dfb-b1a1be83d5ed?action=share&source=collection_link&creator=50122820"
+	},
+	"item": [
+		{
+			"name": "request Post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://accounts.spotify.com/api/token?client_id=7e7e2ae8de014e95a5c0223257c9b091&client_secret=a2870c2713904229a66968b938b98146&grant_type=client_credentials",
+					"protocol": "https",
+					"host": [
+						"accounts",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"api",
+						"token"
+					],
+					"query": [
+						{
+							"key": "client_id",
+							"value": "7e7e2ae8de014e95a5c0223257c9b091"
+						},
+						{
+							"key": "client_secret",
+							"value": "a2870c2713904229a66968b938b98146"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "requete Damso",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQDL3mLchnp2RMkfXKIkSqGSiBGS7cRv4_gJf1TYlsCeEDQ792eoRjDaRh2gCTNe2sPLNT3T4ZzP8GSLyR_OaUyTpS3dm_S3ByMoDR_1iwKZAuxo3753QL-XBo5fsuFVqxOlfkcEH6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/artists/2UwqpfQtNuhBwviIC0f2ie",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"artists",
+						"2UwqpfQtNuhBwviIC0f2ie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Albums Damso",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQDL3mLchnp2RMkfXKIkSqGSiBGS7cRv4_gJf1TYlsCeEDQ792eoRjDaRh2gCTNe2sPLNT3T4ZzP8GSLyR_OaUyTpS3dm_S3ByMoDR_1iwKZAuxo3753QL-XBo5fsuFVqxOlfkcEH6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/artists/2UwqpfQtNuhBwviIC0f2ie/albums",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"artists",
+						"2UwqpfQtNuhBwviIC0f2ie",
+						"albums"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "batterie faible Damso",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQC9qy_i_M7eg2eE-P_GAa1xwj9pd6JGT0wLPCuoxTgP-zPoAVsRl6L9XrBrr6qgXtfEKRmsYK89lNPw1SIYleo2Y07GoxXzHKkvUMfxsfHmpyQm8lShtd9C_kEyDOydkmGP7ZActZ8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/albums/4beTtJKeg3ITJsiVuxkiV0/tracks?limit=5",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"albums",
+						"4beTtJKeg3ITJsiVuxkiV0",
+						"tracks"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "impardonnable Damso",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQDL3mLchnp2RMkfXKIkSqGSiBGS7cRv4_gJf1TYlsCeEDQ792eoRjDaRh2gCTNe2sPLNT3T4ZzP8GSLyR_OaUyTpS3dm_S3ByMoDR_1iwKZAuxo3753QL-XBo5fsuFVqxOlfkcEH6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/tracks/6nkFbmDY84a9rejFSbIMdj",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tracks",
+						"6nkFbmDY84a9rejFSbIMdj"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laylow top tracks",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQDL3mLchnp2RMkfXKIkSqGSiBGS7cRv4_gJf1TYlsCeEDQ792eoRjDaRh2gCTNe2sPLNT3T4ZzP8GSLyR_OaUyTpS3dm_S3ByMoDR_1iwKZAuxo3753QL-XBo5fsuFVqxOlfkcEH6Y",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/artists/0LnhY2fzptb0QEs5Q5gM7S/top-tracks",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"artists",
+						"0LnhY2fzptb0QEs5Q5gM7S",
+						"top-tracks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "laylow maladresse",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQC9qy_i_M7eg2eE-P_GAa1xwj9pd6JGT0wLPCuoxTgP-zPoAVsRl6L9XrBrr6qgXtfEKRmsYK89lNPw1SIYleo2Y07GoxXzHKkvUMfxsfHmpyQm8lShtd9C_kEyDOydkmGP7ZActZ8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/tracks/67Pf31pl0PfjBfUmvYNDCL",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"tracks",
+						"67Pf31pl0PfjBfUmvYNDCL"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hugo des cryptes / actus podcast",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQC9qy_i_M7eg2eE-P_GAa1xwj9pd6JGT0wLPCuoxTgP-zPoAVsRl6L9XrBrr6qgXtfEKRmsYK89lNPw1SIYleo2Y07GoxXzHKkvUMfxsfHmpyQm8lShtd9C_kEyDOydkmGP7ZActZ8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/shows/6y1PloEyNsCNJH9vHias4T",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"shows",
+						"6y1PloEyNsCNJH9vHias4T"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hugo des cryptes / actus podcast Copy 3 derniers episodes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQC9qy_i_M7eg2eE-P_GAa1xwj9pd6JGT0wLPCuoxTgP-zPoAVsRl6L9XrBrr6qgXtfEKRmsYK89lNPw1SIYleo2Y07GoxXzHKkvUMfxsfHmpyQm8lShtd9C_kEyDOydkmGP7ZActZ8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/shows/6y1PloEyNsCNJH9vHias4T/episodes?limit=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"shows",
+						"6y1PloEyNsCNJH9vHias4T",
+						"episodes"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hugo des cryptes / actus podcast deuxieme episode",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer BQC9qy_i_M7eg2eE-P_GAa1xwj9pd6JGT0wLPCuoxTgP-zPoAVsRl6L9XrBrr6qgXtfEKRmsYK89lNPw1SIYleo2Y07GoxXzHKkvUMfxsfHmpyQm8lShtd9C_kEyDOydkmGP7ZActZ8",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.spotify.com/v1/shows/6y1PloEyNsCNJH9vHias4T/episodes?limit=1&offset=2",
+					"protocol": "https",
+					"host": [
+						"api",
+						"spotify",
+						"com"
+					],
+					"path": [
+						"v1",
+						"shows",
+						"6y1PloEyNsCNJH9vHias4T",
+						"episodes"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1"
+						},
+						{
+							"key": "offset",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
